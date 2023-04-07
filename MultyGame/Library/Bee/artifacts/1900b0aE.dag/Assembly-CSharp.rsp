@@ -115,6 +115,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:DISABLE_PLAYFABENTITY_API
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -355,6 +356,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/01. Script/00. System/InputManager.cs"
+"Assets/01. Script/00. System/PlayfabManager.cs"
+"Assets/01. Script/00. System/UnableDestroyObject.cs"
 "Assets/01. Script/01. UI/Main_UI.cs"
 -langversion:9.0
 
